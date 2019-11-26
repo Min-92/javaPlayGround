@@ -1,9 +1,9 @@
 public class gugudan {
-    public static int[] calculate(int num) {
-        int[] result = new int[num];
+    public static int[] calculate(int num1, int num2) {
+        int[] result = new int[num2];
 
-        for (int i = 0; i < num; i++) {
-            result[i] = num * (i + 1);
+        for (int i = 0; i < num2; i++) {
+            result[i] = num1 * (i + 1);
         }
 
         return result;
